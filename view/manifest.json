@@ -1,0 +1,26 @@
+{
+    "short_name": "ShareDemo",
+    "name": "Link Sharing Demo",
+    "description": "Test",
+    "id": "agail.pine.pwa.demo",
+    "share_target": {
+      "action": "/pwa/share",
+      "method": "POST",
+      "enctype": "application/x-www-form-urlencoded",
+      "params": {
+        "url": "url"
+      }
+    },
+    "icons": [
+      {
+        "src": "/icon.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }
+    ],
+    "start_url": "/pwa/index.html",
+    "scope": "/pwa/",
+    "display": "minimal-ui",
+    "background_color": "#3367D6",
+    "theme_color": "#3367D6"
+}

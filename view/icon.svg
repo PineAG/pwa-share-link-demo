@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0,-17.254,17.254,0,11786.4,-1644.69)">
+        <g id="layer1">
+            <g id="g11676">
+                <g id="path11666" transform="matrix(1,0,0,1,1.1045,-949.48)">
+                    <path d="M-134.38,309.5C-134.38,313.668 -137.759,317.047 -141.927,317.047C-146.096,317.047 -149.475,313.668 -149.475,309.5C-149.475,305.332 -146.096,301.953 -141.927,301.953C-137.759,301.953 -134.38,305.332 -134.38,309.5Z" style="fill-rule:nonzero;"/>
+                </g>
+                <g id="path11668" transform="matrix(1,0,0,1,32.767,-949.48)">
+                    <path d="M-134.38,309.5C-134.38,313.668 -137.759,317.047 -141.927,317.047C-146.096,317.047 -149.475,313.668 -149.475,309.5C-149.475,305.332 -146.096,301.953 -141.927,301.953C-137.759,301.953 -134.38,305.332 -134.38,309.5Z" style="fill-rule:nonzero;"/>
+                </g>
+                <g id="path11670" transform="matrix(1,0,0,1,16.936,-976.35)">
+                    <path d="M-134.38,309.5C-134.38,313.668 -137.759,317.047 -141.927,317.047C-146.096,317.047 -149.475,313.668 -149.475,309.5C-149.475,305.332 -146.096,301.953 -141.927,301.953C-137.759,301.953 -134.38,305.332 -134.38,309.5Z" style="fill-rule:nonzero;"/>
+                </g>
+                <g id="rect11672" transform="matrix(0.499985,-0.866034,0.866034,0.499985,0,0)">
+                    <rect x="488.22" y="-443.73" width="27.692" height="3"/>
+                </g>
+                <g id="rect11674" transform="matrix(-0.5,-0.86603,-0.86603,0.5,0,0)">
+                    <rect x="613.16" y="-226.9" width="27.692" height="3"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

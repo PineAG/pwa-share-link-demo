@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="manifest" href="/manifest.json">
+        <title>PWA Share Target Demo</title>
+    </head>
+    <body>
+        <h1>PWA Share Target Demo</h1>
+        <script>
+            if ('serviceWorker' in navigator) {
+                console.log("serviceWorker available");
+            navigator.serviceWorker.register('/pwa/sw.js', { scope: '/pwa/' }).then(function(reg) {
+                // registration worked
+                console.log('Registration succeeded. Scope is ' + reg.scope);
+            }).catch(function(error) {
+                // registration failed
+                console.log('Registration failed with ' + error);
+            });
+            }
+        </script>
+    </body>
+</html>
