@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="manifest" href="/manifest.json">
+        <meta charset="UTF-8"/>
+        <title>PWA Share Target Demo</title>
+    </head>
+    <body>
+        <h1>PWA Share Target Demo</h1>
+        <h3>安装</h3>
+        <p>在Chrome/Edge浏览器中，点击地址栏中的安装按钮以安装。</p>
+        <p>不基于Chromium的浏览器可能不会显示该按钮，此外，如果已经安装本PWA，也不会显示该按钮。</p>
+        <p>可参考"卸载"的步骤删除本PWA后再试一次。</p>
+        <h3>使用</h3>
+        <p>在支持Share API的网站中(例如Twitter)点击分享按钮，即可在浏览器的分享界面中用"Link Sharing Demo"打开链接。</p>
+        <h3>卸载</h3>
+        <p>在地址栏输入<code>chrome://apps</code>或<code>edge://apps</code>打开应用管理页面，找到"Link Sharing Demo"并点击"x".</p>
+        <script>
+            if ('serviceWorker' in navigator) {
+                console.log("serviceWorker available");
+            navigator.serviceWorker.register('./pwa/sw.js', { scope: './pwa/' }).then(function(reg) {
+                // registration worked
+                console.log('Registration succeeded. Scope is ' + reg.scope);
+            }).catch(function(error) {
+                // registration failed
+                console.log('Registration failed with ' + error);
+            });
+            }
+        </script>
+    </body>
+</html>
