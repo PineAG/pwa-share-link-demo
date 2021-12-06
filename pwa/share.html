@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Link Received</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div id="successContainer" style="display: none;">
+            <h1>收到链接</h1>
+            <h5>URL: <a href="" id="urlContainer"></a></h5>
+        </div>
+        <div id="defaultContainer">
+            <h1>PWA Link Sharing Demo</h1>
+            <h3>未收到链接</h3>
+        </div>
+        <script>
+            const defaultContainer = document.querySelector('#defaultContainer') // 默认显示内容
+            const successContainer = document.querySelector('#successContainer') // 显示URL
+            const urlContainer = document.querySelector('#urlContainer') // 显示链接
+            const args = new URLSearchParams(window.location.search) // 解析URL参数
+            const url = args.get('url')  // 获取参数中的链接
+            if(url){
+                defaultContainer.style.display = 'none'
+                successContainer.style.display = 'block'
+                urlContainer.href = url
+                urlContainer.textContent = url
+            }
+        </script>
+    </body>
+</html>
